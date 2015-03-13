@@ -4,7 +4,7 @@
   "description": "Angular unit tests",
   "main": "index.js",
   "scripts": {
-    "test": "karma start karma-config.js"
+    "test": "./node_modules/.bin/karma start karma-config.js"
   },
   "author": "Martin Brennan",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "chai": "^2.1.1",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
+    "karma-cli": "0.0.4",
     "karma-coverage": "^0.2.7",
     "karma-mocha": "^0.1.10",
     "karma-mocha-reporter": "^1.0.0",
